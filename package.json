@@ -1,0 +1,38 @@
+{
+  "name": "@pattern-lab/edition-node",
+  "description": "A pure wrapper around patternlab-node core, the default pattern engine, and supporting frontend assets.",
+  "version": "5.13.0",
+  "main": "patternlab-config.json",
+  "dependencies": {
+    "@pattern-lab/cli": "^5.13.0",
+    "@pattern-lab/core": "^5.13.0",
+    "@pattern-lab/engine-handlebars": "^5.10.1",
+    "@pattern-lab/uikit-workshop": "^5.13.0"
+  },
+  "keywords": [
+    "Pattern Lab",
+    "Atomic Web Design",
+    "Node",
+    "Javascript"
+  ],
+  "scripts": {
+    "sass": "sass ./source/css/style.scss ./source/css/style.css --no-source-map --watch",
+    "pl:build": "patternlab build --config ./patternlab-config.json",
+    "pl:help": "patternlab --help",
+    "pl:install": "patternlab install --config ./patternlab-config.json",
+    "pl:serve": "patternlab serve --config ./patternlab-config.json",
+    "pl:version": "patternlab --version",
+    "start": "npm run sass & npm run pl:serve"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.12.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "80f62be442223e09bafb30d0529cbd768e03f2ac",
+  "devDependencies": {
+    "sass": "1.26.10"
+  }
+}

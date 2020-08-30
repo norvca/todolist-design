@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "name": "$color-brand-green",
+      "value": "#58b4ab",
+      "comment": ""
+    },
+    {
+      "name": "$color-brand-purple",
+      "value": "#66638b",
+      "comment": ""
+    },
+    {
+      "name": "$color-brand-red",
+      "value": "#da635d",
+      "comment": ""
+    }
+  ],
+  "meta": {
+    "description": "To add to these items, use Sass variables that start with <code>$color-brand-</code> in <code>./source/css/scss/abstracts/_variables.scss</code>"
+  }
+}

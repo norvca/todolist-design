@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "name": "$color-utility-green",
+      "value": "#8fb4aa",
+      "comment": ""
+    },
+    {
+      "name": "$color-utility-purple",
+      "value": "#837fa8",
+      "comment": ""
+    },
+    {
+      "name": "$color-utility-red",
+      "value": "#da9798",
+      "comment": ""
+    },
+    {
+      "name": "$color-utility-error",
+      "value": "#f76a63",
+      "comment": ""
+    },
+    {
+      "name": "$color-utility-blur",
+      "value": "rgba(0, 0, 0, 0.3);",
+      "comment": ""
+    }
+  ],
+  "meta": {
+    "description": "To add to these items, use Sass variables that start with <code>$color-utility-</code> in <code>./source/css/scss/abstracts/_variables.scss</code>"
+  }
+}
