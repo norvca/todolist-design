@@ -1,7 +1,27 @@
+/* ======= my setting =========== */
+/**
+ * present background
+ */
+.sf-background {
+  display: flex;
+  background-color: #ccc;
+  padding: 5px;
+}
+
+/**
+ * titles background
+ */
 .pl-c-category__title {
   background-color: #ccc;
 }
 
+.seprate {
+  display: flex;
+}
+
+/**
+ * Code style
+ */
 code {
   display: inline-block;
   background: rgb(249, 249, 249);
@@ -11,6 +31,7 @@ code {
   font-size: 0.85rem;
 }
 
+/* ======= default setting =========== */
 /**
  * This stylesheet is for styles you want to include only when displaying demo
  * styles for grids, animations, color swatches, etc.

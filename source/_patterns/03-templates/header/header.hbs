@@ -1,0 +1,42 @@
+{{> atoms-icon-template }}
+
+<header class="site-header">
+	<div class="site-header__random-task">
+		<span class="site-header__random-task__fire">PureTodo</span>
+	</div>
+
+	<div class="site-header__login">
+		<span class="site-header__loginButton">登陆</span>
+		<svg class="icon site-header__loginIcon" aria-hidden="true" name="search">
+			<use xlink:href="#icon-user"></use>
+		</svg>
+	</div>
+
+	<div class="site-header__profile hidden">
+		<span class="site-header__username"></span>
+	</div>
+
+	<div class="site-header__search-box">
+		<div class="site-header__search-box__content">
+			<!-- 搜索图标 -->
+			<svg class="icon icon__search" aria-hidden="true" name="search">
+				<use xlink:href="#icon-search"></use>
+			</svg>
+			<input class="site-header__search-box__input" type="text" name="search" placeholder="点击放大镜开启关闭搜索功能..." />
+			<!-- 任务等级图标 -->
+			<svg class="icon icon__level level-light" level="bgc-light" aria-hidden="true">
+				<use xlink:href="#icon-circle"></use>
+			</svg>
+			<!-- 添加图标 -->
+			<svg class="icon icon__add" aria-hidden="true">
+				<use xlink:href="#icon-ADD"></use>
+			</svg>
+		</div>
+	</div>
+
+	<div class="site-header__theme-btn">
+		<svg class="icon" aria-hidden="true">
+			<use xlink:href="#icon-theme"></use>
+		</svg>
+	</div>
+</header>
